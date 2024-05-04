@@ -6,9 +6,11 @@
 <template>
   <main>
     <LoadingScreen 
-      :time=2000
+      :time=4699
       backgroundColor="#1C1917"
-      loaderColor="#FACC15"
+      loaderColor="#44403C"
+      :motivationText=true
+      :loader=true
     />
     <Navbar />
   </main>
